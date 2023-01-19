@@ -12,7 +12,7 @@ Este projeto tem como objetivo consumir uma Fake API criada por um dos membros d
 ## 👉  Clonar o repositório na sua máquina:
 
 ```sh
-$ git clone https://github.com/Ismaelgoncalvesdasil/Loja-de-Informatica-projeto-Grupo-modulo3.git
+git clone https://github.com/Ismaelgoncalvesdasil/Loja-de-Informatica-projeto-Grupo-modulo3.git
 ```
 ## 👉 Dentro da pasta do projeto, instalar dependências:
 
@@ -22,7 +22,7 @@ npm i axios react-router-dom react-modal
 ## 👉 Executar o projeto:
 
 ```sh
-$ npm run dev
+npm run dev
 ```
 
 Após esses passos acesse http://localhost:5173/ para abrir o projeto no navegador.
