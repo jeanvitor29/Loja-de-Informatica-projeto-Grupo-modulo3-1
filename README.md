@@ -17,7 +17,7 @@ $ git clone https://github.com/Ismaelgoncalvesdasil/Loja-de-Informatica-projeto-
 ## 👉 Dentro da pasta do projeto, instalar dependências:
 
 ```sh
-$ npm i axios react-router-dom react-modal
+npm i axios react-router-dom react-modal
 ```
 ## 👉 Executar o projeto:
 
