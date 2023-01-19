@@ -3,7 +3,8 @@ import './css/Navibar.css';
 
 const Navibar = () => {
   return (
-  <div></div>),
+  <div>
+  </div>),
   (<h1>Navbar.1</h1>
   );
 };
