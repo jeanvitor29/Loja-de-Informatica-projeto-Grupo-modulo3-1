@@ -1,18 +1,13 @@
-import Home from "./routes/Home"
-// import Navibar from "./component/Navibar"
-// import Footer from "./component/Footer"
-import NewPost from "./routes/NewPost"
-import DeleteProdutos from "./routes/DeletePost"
-import Update from "./routes/Update"
-import './button/style.css'
+import React from "react"
+import Navbar from "./component/NavBar/Navbar"
+import {Outlet} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-
-    <Home />
-    <NewPost  />  
-   <DeleteProdutos/> 
-   <Update/>
+    <Navbar />
+    <div className="container">
+        <Outlet />
+      </div>
     </div>
   )
 }

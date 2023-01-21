@@ -1,0 +1,10 @@
+.navbar div{
+  display: inline;
+  padding: 20px;  
+}
+.navbar{
+  background-color: blue;
+}
+.navbar div a {
+  color: white;
+}

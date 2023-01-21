@@ -1,14 +1,13 @@
-import React, { Children } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-
-import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom'
-
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import './index.css';
 // páginas
 import Home from './routes/Home';
-import NewPost from './routes/NewPost';
-
-import './index.css';
+import Compu from './component/produtos/ComputadoresGet';
+import Perifericos from './component/produtos/Perifericos';
+import Imp from './component/produtos/Impressoras'
 
 const router = createBrowserRouter([
   {
@@ -19,8 +18,16 @@ const router = createBrowserRouter([
        element: <Home />
      },
      {
-       path: "/new",
-       element: <NewPost />
+       path: "/Computadores",
+       element: <Compu />
+     },
+     {
+      path: "/perifericos",
+      element: <Perifericos />
+     },
+     {
+      path:"/impressoras",
+      element: <Imp />
      },
     ],
   },
