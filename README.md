@@ -2,7 +2,7 @@
 
 # Loja
 
-<strong>ReactFlix</strong> é um site desenvolvido para projeto em grupo do módulo 3 do curso Programadores Cariocas criado pela prefeitura do Rio de Janeiro em parceria com SENAC RJ / Resília Educação.
+<strong>Loja De Informatica</strong> é um site desenvolvido para projeto em grupo do módulo 3 do curso Programadores Cariocas criado pela prefeitura do Rio de Janeiro em parceria com SENAC RJ / Resília Educação.
 
 Este projeto tem como objetivo consumir uma Fake API criada por um dos membros do SQUAD e utilizar 4 métodos HTTP <strong>(GET, POST, PUT, DELETE)</strong>. A ideia do site é ter a experiência de um ADM, tendo todos os direitos liberados para manutenção da página e não exatamente uma página voltada para o cliente.
 
