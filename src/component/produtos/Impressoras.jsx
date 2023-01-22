@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Api from '../../axios/config';
 import axios from 'axios';
 import ModalBto from '../Modalbuttoncomprar/ModalButton';
+import './Impressoras.css'
 
 const Imp = () => {
 

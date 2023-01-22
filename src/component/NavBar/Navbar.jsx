@@ -11,7 +11,7 @@ const Nav = () =>(
       <Link to={'/computadores'}>Computadores</Link>
     </div>
     <div>
-      <Link to={'/perifericos'}>Perifericos</Link>
+      <Link to={'/periféricos'}>Perifericos</Link>
     </div>
     <div>
       <Link to={'/impressoras'}>Impressoras</Link>

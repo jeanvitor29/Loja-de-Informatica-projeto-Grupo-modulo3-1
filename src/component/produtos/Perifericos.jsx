@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Api from '../../axios/config';
 import axios from 'axios';
 import ModalBto from '../Modalbuttoncomprar/ModalButton';
+import './Perifericos.css'
 
 const Perifericos = () => {
 
@@ -33,7 +34,7 @@ return <div >
   <div className="perifericos">
    {Peri.length === 0 ? (<p>Carregando...</p>) : (Peri.map((peri) => (
      <div className="peri" key={peri.id}>
-       <img className="imagem" src={peri.imagem}/>
+       <img className="imgs" src={peri.imagem}/>
       <h2>{peri.nome}</h2>
       <h3>{peri.valor}</h3>
       <ModalBto />    

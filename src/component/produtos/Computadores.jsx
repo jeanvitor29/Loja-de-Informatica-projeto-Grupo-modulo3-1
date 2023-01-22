@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Api from '../../axios/config';
 import axios from 'axios';
 import ModalBto from '../Modalbuttoncomprar/ModalButton';
+import './Computadores.css'
 
 const Compu = () => {
   const [posts, setPosts] = useState([]);
@@ -26,7 +27,7 @@ const Compu = () => {
       <br />
       <div className="computadores">
         {posts.length === 0 ? (
-          <p>Carregando...</p>
+          <p className='carre'>Carregando...</p>
         ) : (
           posts.map((post) => (
             <div className="compu" key={post.id}>
@@ -40,11 +41,9 @@ const Compu = () => {
       </div>
       <button onClick={NewComputador} >Novo</button>
       <button onClick={EditarComputador}>Editar</button>
-      <button onClick={delComp}>Deletarr</button>
+      <button onClick={delComp}>Deletar</button>
     </div>
   );
-  const [Comp, Computadores] = useState([]);
-
   function NewComputador(id, nome, valor) {
     id = prompt('Insira o id do Computador.');
     nome = prompt('Insira o nome do Computador.');

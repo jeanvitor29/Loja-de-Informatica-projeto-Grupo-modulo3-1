@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css';
 // páginas
 import Home from './routes/Home';
-import Compu from './component/produtos/ComputadoresGet';
+import Compu from './component/produtos/Computadores';
 import Perifericos from './component/produtos/Perifericos';
 import Imp from './component/produtos/Impressoras'
 
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
        element: <Compu />
      },
      {
-      path: "/perifericos",
+      path: "/periféricos",
       element: <Perifericos />
      },
      {
