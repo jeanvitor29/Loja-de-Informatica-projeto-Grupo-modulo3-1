@@ -1,0 +1,16 @@
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+  padding: 20px;
+  width: 95.7%;
+}
+.navbar div a {
+  color: black;
+}
+.navbar div a:hover {
+ cursor: pointer;
+ color: #fff;
+}
