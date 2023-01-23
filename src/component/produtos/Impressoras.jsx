@@ -27,7 +27,9 @@ useEffect(()=>{
  getimpre()
 },[] )
 
-return <div >
+return (
+<div >
+  <br />
     <div className="impressoras">
    {Impre.length === 0 ? (<p>Carregando...</p>) : (Impre.map((Impre) => (
      <div className="impre" key={Impre.id}>
@@ -41,6 +43,7 @@ return <div >
       <button onClick={EditarImpressora}>Editar</button>
       <button onClick={delImp}>Deletar</button>
   </div>
+  )
 };
 function NewImpressora (id, nome, valor) {
   id = prompt("Insira o id da Impressora.")

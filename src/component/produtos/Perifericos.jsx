@@ -31,6 +31,7 @@ useEffect(()=>{
 return <div >
   
   <div>
+    <br />
   <div className="perifericos">
    {Peri.length === 0 ? (<p>Carregando...</p>) : (Peri.map((peri) => (
      <div className="peri" key={peri.id}>

@@ -1,12 +1,14 @@
-.imgs{
-  height: 190px;
-  width: 190px;
-}
+
 p{
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 1.5rem;
 }
+.imgs{
+  height: 190px;
+  width: 190px;
+}
+
 .perifericos{
   display: flex;
 }
