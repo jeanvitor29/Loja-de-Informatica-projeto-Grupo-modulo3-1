@@ -45,10 +45,16 @@ const Compu = () => {
     </div>
   );
   function NewComputador(id, nome, valor) {
-    id = prompt('Insira o id do Computador.');
-    nome = prompt('Insira o nome do Computador.');
-    valor = prompt('Insira o valor do Produto.');
-    axios;
+    return(
+      <form id="formComputador">
+  <input type="text" id="id" placeholder="Insira o id do Computador."/>
+  <input type="text" id="nome" placeholder="Insira o nome do Computador."/>
+  <input type="text" id="valor" placeholder="Insira o valor do Produto."/>
+  <button type="submit" onclick="submitForm()">Enviar</button>
+</form>)
+
+
+    axios
     Api.post('/computadores', { id: id, nome: nome, valor: valor })
       .then((result) => {
         console.log(result);
