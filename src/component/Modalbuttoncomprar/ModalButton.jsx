@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import "./css/ModalButton.css"
+import "./ModalButton.css"
 
 function ModalBto() {
   const [modalIsOpen, setModalIsOpen] = useState(false);

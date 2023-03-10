@@ -1,12 +1,14 @@
-import Home from "./routes/Home"
-import Navibar from "./component/Navibar"
-import Footer from "./component/Footer"
-
+import React from "react"
+import Navbar from "./component/NavBar/Navbar"
+import {Outlet} from 'react-router-dom'
+import Footer from "./component/Footer/Footer"
 function App() {
   return (
     <div className="App">
-    <Navibar />
-    <Home />
+    <Navbar />
+    <main>
+      <Outlet />
+    </main>
     <Footer />
     </div>
   )
